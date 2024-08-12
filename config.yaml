@@ -1,0 +1,27 @@
+baseURL: https://collecting.vtes.cz
+languageCode: en-us
+theme: github.com/setsevireon/photophobia
+title: Collecting V:tES
+
+DefaultContentLanguage: en
+SectionPagesMenu: main
+Paginate: 3
+googleAnalytics: ""
+
+sitemap:
+  changefreq: daily
+  priority: 0.5
+  filename: sitemap.xml
+
+params:
+  favicon: null
+  site_logo: null
+  description: Pellentesque commodo dolor leo.
+  recent_posts_number: 10
+
+markup:
+  highlight:
+    style: nord
+
+security:
+  enableInlineShortcodes: true
